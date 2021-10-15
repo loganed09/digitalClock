@@ -2,6 +2,11 @@ html {
     font-size: 16px;
 }
 
+@font-face {
+    font-family: SPIDER-MAN;
+    src: url(The\ Amazing\ Spider-Man.ttf)
+}
+
 body {
     background-color: darkblue;
     background-image: linear-gradient( #021656, #822720);
@@ -9,7 +14,7 @@ body {
     background-attachment: fixed;
     text-align: center;
     color: #abadbf;
-    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    font-family: 'SPIDER-MAN', sans-serif;
 }
 
 header {
@@ -37,6 +42,6 @@ h1 {
     transform: translateX(-50%) translateY(-50%);
     color: #822720;
     font-size: 60px;
-    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    font-family: 'SPIDER-MAN', sans-serif;
     letter-spacing: 7px;
 }
